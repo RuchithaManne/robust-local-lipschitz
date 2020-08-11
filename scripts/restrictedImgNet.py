@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os
 from os.path import join
 from mkdir_p import mkdir_p
