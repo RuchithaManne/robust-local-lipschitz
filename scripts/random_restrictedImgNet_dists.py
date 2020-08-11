@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
