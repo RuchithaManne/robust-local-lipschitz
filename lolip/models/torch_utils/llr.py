@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 https://arxiv.org/pdf/1907.02610.pdf
 """
