@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 models=(
     'aug01-ce-tor-WRN_40_10',
     'aug01-advbeta2ce-tor-WRN_40_10',
@@ -31,11 +33,11 @@ models=(
 )
 for i in "${models[@]}"
 do
-	  python ./main.py --experiment restrictedImgnet \
-	    	--no-hooks \
-	    	--norm inf --eps 0.005 \
-	    	--dataset resImgnet112v3 \
-        --model ${i} \
-	    	--attack pgd \
-	    	--random_seed 0
+  python ./main.py --experiment restrictedImgnet \
+	--no-hooks \
+	--norm inf --eps 0.005 \
+	--dataset resImgnet112v3 \
+	--model ${i} \
+	--attack pgd \
+	--random_seed 0
 done
