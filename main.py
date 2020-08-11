@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 from lolip.variables import auto_var
 from utils import setup_experiments
