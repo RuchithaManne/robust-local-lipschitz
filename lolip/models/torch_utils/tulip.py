@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 SCALEABLE INPUT GRADIENT REGULARIZATION FOR ADVERSARIAL ROBUSTNESS
 https://github.com/cfinlay/tulip/blob/master/cifar10/train.py
