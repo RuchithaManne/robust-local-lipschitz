@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 https://github.com/rwightman/pytorch-commands/blob/master/optim/nadam.py
 """
