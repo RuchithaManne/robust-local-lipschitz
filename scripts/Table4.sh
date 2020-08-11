@@ -1,16 +1,18 @@
+#!/bin/bash
+
 models=(
     'ce-tor-WRN_40_10',
     'advbeta2ce-tor-WRN_40_10',
     'advce-tor-WRN_40_10',
     'strades3ce-tor-WRN_40_10',
     'strades6ce-tor-WRN_40_10',
-
     'ce-tor-WRN_40_10_drop50',
     'advbeta2ce-tor-WRN_40_10_drop50',
     'advce-tor-WRN_40_10_drop50',
     'strades3ce-tor-WRN_40_10_drop50',
     'strades6ce-tor-WRN_40_10_drop50',
 )
+
 for i in "${models[@]}"
 do
     python ./main.py --experiment experiment01 \
@@ -28,13 +30,13 @@ models=(
     'aug01-strades3ce-tor-WRN_40_10',
     'aug01-strades6ce-tor-WRN_40_10',
     'aug01-advce-tor-WRN_40_10-lrem2',
-
     'aug01-ce-tor-WRN_40_10_drop20',
     'aug01-strades3ce-tor-WRN_40_10_drop20',
     'aug01-strades6ce-tor-WRN_40_10_drop20',
     'aug01-advce-tor-WRN_40_10_drop20-lrem2',
     'aug01-advbeta2ce-tor-WRN_40_10_drop20',
 )
+
 for i in "${models[@]}"
 do
     python ./main.py --experiment experiment01 \
