@@ -6,7 +6,7 @@ models=(
 )
 for i in "${models[@]}"
 do
-    python ../main.py --experiment experiment01 \
+    python ./main.py --experiment experiment01 \
         --no-hooks \
         --norm inf --eps 0.031 \
         --dataset cifar10 \
