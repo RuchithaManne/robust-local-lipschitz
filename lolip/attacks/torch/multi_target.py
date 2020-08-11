@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import copy
 from functools import partial
 import gc
