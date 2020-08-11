@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/bash
 
 models=(
     'aug01-ce-tor-WRN_40_10',
