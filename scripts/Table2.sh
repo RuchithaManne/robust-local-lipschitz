@@ -1,3 +1,5 @@
+#!/bin/bash
+
 models=(
     'advbeta2ce-tor-CNN001'
     'advbetace-tor-CNN001'
@@ -14,7 +16,7 @@ models=(
 for i in "${models[@]}"
 do
     python ./main.py --experiment experiment01 \
-        --no-hooks 
+        --no-hooks \
         --norm inf --eps 0.1 \
         --dataset mnist \
         --model ${i} \
@@ -38,7 +40,7 @@ models=(
 for i in "${models[@]}"
 do
     python ./main.py --experiment experiment01 \
-        --no-hooks 
+        --no-hooks \
         --norm inf --eps 0.1 \
         --dataset mnist \
         --model ${i} \
