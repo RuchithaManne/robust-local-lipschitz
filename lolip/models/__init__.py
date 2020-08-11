@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os
 
 from autovar.base import RegisteringChoiceType, VariableClass, register_var
