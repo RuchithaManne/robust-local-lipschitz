@@ -1,3 +1,5 @@
+#!/bin/bash
+
 models=(
     'aug01-ce-tor-WRN_40_10',
     'aug01-advbeta2ce-tor-WRN_40_10',
@@ -35,7 +37,7 @@ do
 	    	--no-hooks \
 	    	--norm inf --eps 0.005 \
 	    	--dataset resImgnet112v3 \
-        --model ${i} \
+                --model ${i} \
 	    	--attack pgd \
 	    	--random_seed 0
 done
