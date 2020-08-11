@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """The Fast Gradient Method attack."""
 import numpy as np
 import torch
