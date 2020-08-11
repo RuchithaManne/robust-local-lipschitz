@@ -1,3 +1,5 @@
+#!/bin/bash
+
 python ./main.py --experiment hypo \
   --norm inf --eps 0.031 \
   --dataset mnist \
