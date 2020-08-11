@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import gc
 import os
 from functools import partial
